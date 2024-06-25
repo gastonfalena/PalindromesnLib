@@ -10,7 +10,7 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "ignorePatterns": [".eslintrc.cjs", "dist", "node_modules"],
+    "ignorePatterns": [".eslintrc.cjs", "dist", "node_modules","commitlint.config.js"],
     "rules": {
         "eol-last":"off"
     }

@@ -4,10 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "prepare": "husky install"
+    "check:types": "tsc --noEmit",
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest --watch",
+    "test:mutation": "stryker run"
   },
   "devDependencies": {
     "@types/node": "^20.14.8",

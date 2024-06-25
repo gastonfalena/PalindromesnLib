@@ -12,5 +12,6 @@ module.exports = {
     },
     "ignorePatterns": [".eslintrc.cjs", "dist", "node_modules"],
     "rules": {
+        "eol-last":"off"
     }
 }

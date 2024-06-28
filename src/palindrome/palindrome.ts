@@ -1,13 +1,15 @@
-export const fn = (palindrome: string | number): boolean => {
+export const isPalindrome = (palindrome: string | number): boolean => {
   if (typeof palindrome === 'number') { palindrome = palindrome.toString() }
   if (typeof palindrome === 'string') {
     palindrome = palindrome.toLocaleLowerCase().trim()
-    let acum: number = palindrome.length
+    let acum: number = palindrome.length - 1
     for (let i = 0; i < acum; i++) {
-      if (palindrome[i] === palindrome[acum]) {
-        acum--
-      } else { return false }
+      if (palindrome[i] !== palindrome[acum]) {
+        return false
+      }
+      acum--
     }
+    return true
   }
-  return true
+  return false
 }

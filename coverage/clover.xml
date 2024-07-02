@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1719612885985" clover="3.2.0">
-  <project timestamp="1719612885986" name="All files">
+<coverage generated="1719617586188" clover="3.2.0">
+  <project timestamp="1719617586188" name="All files">
     <metrics statements="18" coveredstatements="15" conditionals="11" coveredconditionals="8" methods="4" coveredmethods="1" elements="33" coveredelements="24" complexity="0" loc="18" ncloc="18" packages="3" files="4" classes="4"/>
     <package name="Capicua">
       <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
